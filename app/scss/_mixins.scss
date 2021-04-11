@@ -18,5 +18,5 @@ $breakpoints-down: (small: 639px, medium: 1023px, large: 1399px);
 }
 
 @function rem($pxValue) {
-  @return #{stripUnit($pxValue) / stripUnit($html-font-size)}rem;
+  @return (stripUnit($pxValue) / stripUnit($html-font-size)) * 1rem;
 }
