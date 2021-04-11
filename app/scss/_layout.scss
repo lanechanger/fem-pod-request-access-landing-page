@@ -1,11 +1,17 @@
-l- {
-  &__site-container {}
+.l- {
+  &site-container {
+    margin: rem(62px) 6.4% 0 6.4%;
+  }
 
-  &__logo {}
+  &logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 
-  &__bottom {}
+  &bottom {}
 
-  &__products {}
+  &products {}
 
-  &__conversion {}
+  &conversion {}
 }
