@@ -8,8 +8,12 @@ html {
   box-sizing: inherit;
   padding: 0;
   margin: 0;
+  font-size: rem(18px);
+  line-height: calc(28/18);
 }
 
 body {
   font-family: 'Chivo', sans-serif;
+  height: 100%;
+  min-height: 100vh;
 }
