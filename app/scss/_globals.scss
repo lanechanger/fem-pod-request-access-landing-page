@@ -17,4 +17,10 @@ body {
   height: 100%;
   min-height: 100vh;
   background-color: $darkestGray;
+  text-align: center;
+  color: $lightestGray;
+
+  @include breakpoint-up(medium) {
+    text-align: left;
+  }
 }
