@@ -33,6 +33,7 @@ body {
   font-size: 0.75rem;
   line-height: calc(14/12);
   font-weight: 700;
+  visibility: hidden;
 }
 
 footer {
@@ -59,6 +60,30 @@ footer > p > a {
 .l-logo {
   display: flex;
   justify-content: center;
+}
+
+.l-bottom {
+  margin-top: 2.0625rem;
+}
+
+.l-products {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.l-products path {
+  fill: red;
+}
+
+.l-conversion {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.l-button {
+  margin-top: 1rem;
 }
 
 .text-header, .text-emphasis {

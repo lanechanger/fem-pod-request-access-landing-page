@@ -16,9 +16,28 @@
     justify-content: center;
   }
 
-  &bottom {}
+  &bottom {
+    margin-top: rem(33px);
+  }
 
-  &products {}
+  &products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
-  &conversion {}
+    & path {
+      // hmm why is this not working
+      fill: red;
+    }
+  }
+
+  &conversion {
+    margin-top: rem(48px);
+    display: flex;
+    flex-direction: column;
+  }
+
+  &button {
+    margin-top: rem(16px);
+  }
 }
