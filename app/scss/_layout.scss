@@ -24,11 +24,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-    & path {
-      // hmm why is this not working
-      fill: red;
-    }
   }
 
   &conversion {

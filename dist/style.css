@@ -28,6 +28,11 @@ body {
   }
 }
 
+.podcast-icons path,
+.podcast-icons ellipse {
+  fill: #5A668A;
+}
+
 .email-error {
   color: #FB3E3E;
   font-size: 0.75rem;
@@ -70,10 +75,6 @@ footer > p > a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-.l-products path {
-  fill: red;
 }
 
 .l-conversion {

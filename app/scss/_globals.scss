@@ -26,6 +26,14 @@ body {
   }
 }
 
+.podcast-icons {
+
+  & path,
+  ellipse {
+    fill: #5A668A;
+  }
+}
+
 .email-error {
   color: $red;
   font-size: rem(12px);
