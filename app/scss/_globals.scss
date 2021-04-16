@@ -34,6 +34,10 @@ body {
   }
 }
 
+.email {
+  border-radius: rem(28px);
+}
+
 .email-error {
   color: $red;
   font-size: rem(12px);

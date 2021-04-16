@@ -33,6 +33,10 @@ body {
   fill: #5A668A;
 }
 
+.email {
+  border-radius: 1.75rem;
+}
+
 .email-error {
   color: #FB3E3E;
   font-size: 0.75rem;
