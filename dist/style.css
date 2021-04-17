@@ -52,6 +52,15 @@ body {
   visibility: hidden;
 }
 
+.text-button {
+  cursor: pointer;
+  border: none;
+  background-color: #54E6AF;
+  color: #121725;
+  border-radius: 1.75rem;
+  padding: 0.5625rem 0;
+}
+
 footer {
   margin-top: 1.5rem;
   font-size: 0.8125rem;
