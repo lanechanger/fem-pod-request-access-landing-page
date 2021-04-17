@@ -35,6 +35,7 @@ body {
 
 .email {
   border-radius: 1.75rem;
+  padding: 0.5625rem 0 0.5625rem 2rem;
 }
 
 .email-error {
