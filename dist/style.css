@@ -15,11 +15,13 @@ body {
   height: 100%;
   min-height: 100vh;
   background-color: #121725;
+  background-repeat: no-repeat;
   font-size: 0.9375rem;
   line-height: calc(25/15);
   font-weight: 300;
   text-align: center;
   color: #C2CBE5;
+  background-image: url("/assets/mobile/image-host.jpg");
 }
 
 @media screen and (min-width: 640px) {
@@ -71,7 +73,8 @@ footer > p > a {
 }
 
 .l-site-container {
-  margin: 3.875rem 6.4% 0 6.4%;
+  margin: 0 6.4% 0 6.4%;
+  padding-top: 3.875rem;
 }
 
 .l-text {
