@@ -113,16 +113,25 @@ footer > p > a {
 
 .l-description {
   margin-top: 1rem;
+  display: inline-block;
+}
+
+@media screen and (min-width: 640px) {
+  .l-description {
+    margin-top: 1.9375rem;
+    max-width: 27.8125rem;
+  }
 }
 
 .l-logo {
   display: flex;
   justify-content: center;
+  padding-top: 3.875rem;
 }
 
 @media screen and (min-width: 640px) {
   .l-logo {
-    margin-top: 3.125rem;
+    padding-top: 3.125rem;
     justify-content: flex-start;
   }
 }
@@ -154,9 +163,22 @@ footer > p > a {
   text-transform: uppercase;
 }
 
+@media screen and (min-width: 640px) {
+  .text-header, .text-emphasis {
+    font-size: 3rem;
+    line-height: calc(56/48);
+  }
+}
+
 .text-emphasis {
-  margin-top: 0;
   color: white;
+}
+
+@media screen and (min-width: 640px) {
+  .text-description {
+    font-size: 1.125rem;
+    line-height: calc(28/18);
+  }
 }
 
 .text-button {

@@ -4,15 +4,24 @@
     font-size: rem(26px);
     line-height: calc(38/26);
     text-transform: uppercase;
+
+    @include breakpoint-up(medium) {
+      font-size: rem(48px);
+      line-height: calc(56/48);
+    }
   }
 
   &-emphasis {
     @extend .text-header;
-    margin-top: 0;
     color: white;
   }
 
-  &-description {}
+  &-description {
+    @include breakpoint-up(medium) {
+      font-size: rem(18px);
+      line-height: calc(28/18);
+    }
+  }
 
   &-button {
     color: $darkestGray;

@@ -18,14 +18,21 @@
 
   &description {
     margin-top: rem(16px);
+    display: inline-block;
+
+    @include breakpoint-up(medium) {
+      margin-top: rem(31px);
+      max-width: rem(445px);
+    }
   }
 
   &logo {
     display: flex;
     justify-content: center;
+    padding-top: rem(62px);
 
     @include breakpoint-up(medium) {
-      margin-top: rem(50px);
+      padding-top: rem(50px);
       justify-content: flex-start;
     }
   }
