@@ -21,6 +21,7 @@ body {
   text-align: center;
   color: $lightestGray;
   position: relative;
+  background-repeat: no-repeat;
 
   &:after {
     @include breakpoint-down(small) {
@@ -39,6 +40,8 @@ body {
 
   @include breakpoint-up(medium) {
     text-align: left;
+    background-image: url("/assets/tablet/image-host.jpg");
+    background-position: top right;
   }
 }
 
