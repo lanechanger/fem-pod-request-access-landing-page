@@ -39,6 +39,13 @@
 
   &bottom {
     margin-top: rem(33px);
+    display: flex;
+    flex-direction: column;
+
+    @include breakpoint-up(medium) {
+      margin-top: rem(40px);
+      flex-direction: column-reverse;
+    }
   }
 
   &products {
@@ -51,6 +58,10 @@
     margin-top: rem(48px);
     display: flex;
     flex-direction: column;
+
+    @include breakpoint-up(medium) {
+      margin-top: 0;
+    }
   }
 
   &button {

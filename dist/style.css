@@ -63,6 +63,13 @@ body {
   border: none;
 }
 
+@media screen and (min-width: 640px) {
+  .email {
+    padding: 0.875rem 0 0.875rem 2rem;
+    max-width: 26.6875rem;
+  }
+}
+
 .email-error {
   color: #FB3E3E;
   font-size: 0.75rem;
@@ -138,6 +145,15 @@ footer > p > a {
 
 .l-bottom {
   margin-top: 2.0625rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 640px) {
+  .l-bottom {
+    margin-top: 2.5rem;
+    flex-direction: column-reverse;
+  }
 }
 
 .l-products {
@@ -150,6 +166,12 @@ footer > p > a {
   margin-top: 3rem;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (min-width: 640px) {
+  .l-conversion {
+    margin-top: 0;
+  }
 }
 
 .l-button {

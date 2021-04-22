@@ -62,6 +62,11 @@ body {
   background-color: $darkGray;
   color: white;
   border: none;
+
+  @include breakpoint-up(medium) {
+    padding: rem(14px) 0 rem(14px) rem(32px);
+    max-width: rem(427px);
+  }
 }
 
 .email-error {
