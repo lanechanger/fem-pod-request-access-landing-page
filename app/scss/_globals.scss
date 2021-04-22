@@ -65,7 +65,6 @@ body {
 
   @include breakpoint-up(medium) {
     padding: rem(14px) 0 rem(14px) rem(32px);
-    max-width: rem(427px);
   }
 }
 
@@ -85,6 +84,14 @@ body {
   color: $darkestGray;
   border-radius: rem(28px);
   padding: rem(9px) 0;
+
+  @include breakpoint-up(medium) {
+    position: absolute;
+    padding: rem(9px) rem(27px);
+    max-width: rem(162px);
+    top: -11px;
+    right: 5px;
+  }
 }
 
 footer {

@@ -52,15 +52,21 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    @include breakpoint-up(medium) {
+      margin-top: rem(50px);
+    }
   }
 
   &conversion {
     margin-top: rem(48px);
     display: flex;
     flex-direction: column;
+    position: relative;
 
     @include breakpoint-up(medium) {
       margin-top: 0;
+      max-width: rem(427px);
     }
   }
 
