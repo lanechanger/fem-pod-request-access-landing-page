@@ -1,6 +1,10 @@
 .l- {
   &site-container {
-    padding: rem(62px) 6.4% 0 6.4%;
+    padding: 0 6.4%;
+
+    @include breakpoint-up(medium) {
+      padding: 0 5.078%;
+    }
   }
 
   &text {
@@ -14,6 +18,11 @@
   &logo {
     display: flex;
     justify-content: center;
+
+    @include breakpoint-up(medium) {
+      padding-top: rem(50px);
+      justify-content: flex-start;
+    }
   }
 
   &bottom {
