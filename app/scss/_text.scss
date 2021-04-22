@@ -1,22 +1,27 @@
-.text- {
-  &header {
+.text {
+  &-header {
     color: $green;
     font-size: rem(26px);
     line-height: calc(38/26);
     text-transform: uppercase;
   }
 
-  &emphasis {
+  &-emphasis {
     @extend .text-header;
+    margin-top: 0;
     color: white;
   }
 
-  &description {}
+  &-description {}
 
-  &button {
+  &-button {
     color: $darkestGray;
     font-weight: 700;
     font-size: rem(14px);
     line-height: 2;
+  }
+
+  @include breakpoint-up(medium) {
+    background-color: $darkestGray;
   }
 }

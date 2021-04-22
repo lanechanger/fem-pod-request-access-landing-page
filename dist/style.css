@@ -104,6 +104,13 @@ footer > p > a {
   margin-top: 3.5625rem;
 }
 
+@media screen and (min-width: 640px) {
+  .l-text {
+    margin-top: 9.5rem;
+    padding-top: 5.8125rem;
+  }
+}
+
 .l-description {
   margin-top: 1rem;
 }
@@ -115,7 +122,7 @@ footer > p > a {
 
 @media screen and (min-width: 640px) {
   .l-logo {
-    padding-top: 3.125rem;
+    margin-top: 3.125rem;
     justify-content: flex-start;
   }
 }
@@ -148,6 +155,7 @@ footer > p > a {
 }
 
 .text-emphasis {
+  margin-top: 0;
   color: white;
 }
 
@@ -156,5 +164,11 @@ footer > p > a {
   font-weight: 700;
   font-size: 0.875rem;
   line-height: 2;
+}
+
+@media screen and (min-width: 640px) {
+  .text {
+    background-color: #121725;
+  }
 }
 /*# sourceMappingURL=style.css.map */
