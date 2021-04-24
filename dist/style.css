@@ -174,7 +174,12 @@ footer > p > a {
 @media screen and (min-width: 640px) {
   .l-products {
     margin-top: 3.125rem;
+    justify-content: flex-start;
   }
+}
+
+.l-podcast-containers {
+  display: flex;
 }
 
 .l-conversion {
@@ -231,5 +236,53 @@ footer > p > a {
   .text {
     background-color: #121725;
   }
+}
+
+.podcast-containers-1 {
+  width: 17.13%;
+}
+
+@media screen and (min-width: 640px) {
+  .podcast-containers-1 {
+    width: 13.92%;
+  }
+}
+
+.podcast-containers-2 {
+  width: 13.76%;
+}
+
+@media screen and (min-width: 640px) {
+  .podcast-containers-2 {
+    width: 11.31%;
+    margin-left: 5.8%;
+  }
+}
+
+.podcast-containers-3 {
+  width: 22.32%;
+}
+
+@media screen and (min-width: 640px) {
+  .podcast-containers-3 {
+    width: 18.12%;
+    margin-left: 5.944%;
+  }
+}
+
+.podcast-containers-4 {
+  width: 23.55%;
+}
+
+@media screen and (min-width: 640px) {
+  .podcast-containers-4 {
+    width: 18.7%;
+    margin-left: 3.913%;
+  }
+}
+
+.podcast-icons path,
+.podcast-icons ellipse {
+  fill: #5A668A;
 }
 /*# sourceMappingURL=style.css.map */

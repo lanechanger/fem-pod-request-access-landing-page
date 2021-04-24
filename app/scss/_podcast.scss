@@ -1,0 +1,46 @@
+.podcast {
+  &-containers {
+    &-1 {
+      width: 17.13%;
+
+      @include breakpoint-up(medium) {
+        width: 13.92%;
+      }
+    }
+
+    &-2 {
+      width: 13.76%;
+
+      @include breakpoint-up(medium) {
+        width: 11.31%;
+        margin-left: 5.8%;
+      }
+    }
+
+    &-3 {
+      width: 22.32%;
+
+      @include breakpoint-up(medium) {
+        width: 18.12%;
+        margin-left: 5.944%;
+      }
+    }
+
+    &-4 {
+      width: 23.55%;
+
+      @include breakpoint-up(medium) {
+        width: 18.7%;
+        margin-left: 3.913%;
+      }
+    }
+  }
+
+  &-icons {
+
+    & path,
+    ellipse {
+      fill: #5A668A;
+    }
+  }
+}

@@ -55,7 +55,12 @@
 
     @include breakpoint-up(medium) {
       margin-top: rem(50px);
+      justify-content: flex-start;
     }
+  }
+
+  &podcast-containers {
+    display: flex;
   }
 
   &conversion {
