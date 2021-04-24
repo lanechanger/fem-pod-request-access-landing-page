@@ -33,8 +33,11 @@
     font-size: rem(14px);
     font-weight: 400;
     line-height: 2;
+
     // added this width below last minute as the text was wrapping into a new line on FEM
-    width: rem(162px);
+    @include breakpoint-up(medium) {
+      width: rem(162px);
+    }
   }
 
   @include breakpoint-up(medium) {

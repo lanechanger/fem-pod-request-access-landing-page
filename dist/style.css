@@ -291,7 +291,12 @@ footer > p > a {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 2;
-  width: 10.125rem;
+}
+
+@media screen and (min-width: 640px) {
+  .text-button {
+    width: 10.125rem;
+  }
 }
 
 @media screen and (min-width: 640px) {
