@@ -43,13 +43,8 @@ body {
   body {
     text-align: left;
     background-image: url("/assets/tablet/image-host.jpg"), url("/assets/desktop/bg-pattern-dots.svg");
-    background-position: top right, bottom left;
+    background-position: top right, bottom -0.05% left 5%;
   }
-}
-
-.podcast-icons path,
-.podcast-icons ellipse {
-  fill: #5A668A;
 }
 
 .email {
@@ -112,7 +107,7 @@ footer > p > a {
 
 @media screen and (min-width: 640px) {
   .l-site-container {
-    padding: 0 5.078%;
+    padding: 0 5.079%;
   }
 }
 

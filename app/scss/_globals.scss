@@ -41,15 +41,7 @@ body {
   @include breakpoint-up(medium) {
     text-align: left;
     background-image: url("/assets/tablet/image-host.jpg"), url("/assets/desktop/bg-pattern-dots.svg");
-    background-position: top right, bottom left;
-  }
-}
-
-.podcast-icons {
-
-  & path,
-  ellipse {
-    fill: #5A668A;
+    background-position: top right, bottom -0.05% left 5%;
   }
 }
 
