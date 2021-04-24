@@ -26,6 +26,7 @@ body {
   &:after {
     @include breakpoint-down(small) {
       background-image: url("/assets/mobile/image-host.jpg");
+      background-position: top center;
       background-repeat: no-repeat;
       background-size: contain;
       content: ' ';

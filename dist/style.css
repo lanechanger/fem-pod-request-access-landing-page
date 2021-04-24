@@ -27,6 +27,7 @@ body {
 @media screen and (max-width: 639px) {
   body:after {
     background-image: url("/assets/mobile/image-host.jpg");
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
     content: ' ';
