@@ -4,7 +4,7 @@
       width: 17.13%;
 
       @include breakpoint-up(medium) {
-        width: 13.92%;
+        width: rem(96px);
       }
     }
 
@@ -12,8 +12,8 @@
       width: 13.76%;
 
       @include breakpoint-up(medium) {
-        width: 11.31%;
-        margin-left: 5.8%;
+        width: rem(78px);
+        margin-left: rem(40px);
       }
     }
 
@@ -21,8 +21,8 @@
       width: 22.32%;
 
       @include breakpoint-up(medium) {
-        width: 18.12%;
-        margin-left: 5.944%;
+        width: rem(125px);
+        margin-left: rem(41px);
       }
     }
 
@@ -30,8 +30,8 @@
       width: 23.55%;
 
       @include breakpoint-up(medium) {
-        width: 18.7%;
-        margin-left: 3.913%;
+        width: rem(129px);
+        margin-left: rem(27px);
       }
     }
   }

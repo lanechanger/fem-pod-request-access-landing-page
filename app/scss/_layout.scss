@@ -5,6 +5,10 @@
     @include breakpoint-up(medium) {
       padding: 0 5.079%;
     }
+
+    @include breakpoint-up(large) {
+      padding: 0 11.459%;
+    }
   }
 
   &text {
@@ -13,6 +17,11 @@
     @include breakpoint-up(medium) {
       margin-top: rem(152px);
       padding-top: rem(93px);
+    }
+
+    @include breakpoint-up(large) {
+      margin-top: rem(103px);
+      padding-top: rem(88px);
     }
   }
 
@@ -24,6 +33,10 @@
       margin-top: rem(31px);
       max-width: rem(445px);
     }
+
+    @include breakpoint-up(large) {
+      margin-top: rem(24px);
+    }
   }
 
   &logo {
@@ -34,6 +47,10 @@
     @include breakpoint-up(medium) {
       padding-top: rem(50px);
       justify-content: flex-start;
+    }
+
+    @include breakpoint-up(large) {
+      padding-top: rem(102px);
     }
   }
 
@@ -48,7 +65,7 @@
     }
   }
 
-  &products {
+  &podcast {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -56,6 +73,10 @@
     @include breakpoint-up(medium) {
       margin-top: rem(50px);
       justify-content: flex-start;
+    }
+
+    @include breakpoint-up(large) {
+      margin-top: rem(56px);
     }
   }
 
@@ -77,5 +98,10 @@
 
   &button {
     margin-top: rem(16px);
+  }
+
+  &footer {
+    position: fixed;
+    bottom: 1rem;
   }
 }

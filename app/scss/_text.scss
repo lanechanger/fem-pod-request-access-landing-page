@@ -9,6 +9,11 @@
       font-size: rem(48px);
       line-height: calc(56/48);
     }
+
+    @include breakpoint-up(large) {
+      font-size: rem(52px);
+      line-height: calc(62/52);
+    }
   }
 
   &-emphasis {
@@ -32,5 +37,10 @@
 
   @include breakpoint-up(medium) {
     background-color: $darkestGray;
+    max-width: rem(635px);
+  }
+
+  @include breakpoint-up(large) {
+    max-width: rem(723px);
   }
 }
