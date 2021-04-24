@@ -96,6 +96,11 @@ body {
   }
 }
 
+.text-button:hover {
+  background-color: #B3FFE2;
+  transition: background-color 300ms ease-in-out;
+}
+
 footer {
   font-size: 0.8125rem;
   width: 100%;

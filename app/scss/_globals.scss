@@ -87,6 +87,11 @@ body {
     padding: rem(9px) rem(27px);
     max-width: rem(162px);
   }
+
+  &:hover {
+    background-color: $lightGreen;
+    transition: background-color 300ms ease-in-out;
+  }
 }
 
 footer {
