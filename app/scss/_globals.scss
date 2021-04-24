@@ -58,7 +58,6 @@ body {
   border-radius: rem(28px);
   color: white;
   font-size: rem(14px);
-  font-weight: 700;
   line-height: 2;
   padding: rem(9px) 0 rem(9px) rem(32px);
 
@@ -70,7 +69,7 @@ body {
 .email-error {
   color: $red;
   font-size: rem(12px);
-  font-weight: 700;
+  font-weight: 400;
   line-height: calc(14/12);
 
   visibility: hidden;
