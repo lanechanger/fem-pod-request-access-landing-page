@@ -92,8 +92,22 @@
     }
   }
 
+  &email-error {
+    margin-top: rem(8px);
+
+    @include breakpoint-up(medium) {
+      margin-left: rem(32px);
+    }
+  }
+
   &button {
     margin-top: rem(16px);
+
+    @include breakpoint-up(medium) {
+      position: absolute;
+      top: -11px;
+      right: 5px;
+    }
   }
 
   &footer {

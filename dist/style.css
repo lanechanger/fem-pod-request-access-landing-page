@@ -77,14 +77,7 @@ body {
   font-size: 0.75rem;
   line-height: calc(14/12);
   font-weight: 700;
-  margin-top: 0.5rem;
   visibility: hidden;
-}
-
-@media screen and (min-width: 640px) {
-  .email-error {
-    margin-left: 2rem;
-  }
 }
 
 .text-button {
@@ -98,11 +91,8 @@ body {
 
 @media screen and (min-width: 640px) {
   .text-button {
-    position: absolute;
     padding: 0.5625rem 1.6875rem;
     max-width: 10.125rem;
-    top: -11px;
-    right: 5px;
   }
 }
 
@@ -232,8 +222,26 @@ footer > p > a {
   }
 }
 
+.l-email-error {
+  margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 640px) {
+  .l-email-error {
+    margin-left: 2rem;
+  }
+}
+
 .l-button {
   margin-top: 1rem;
+}
+
+@media screen and (min-width: 640px) {
+  .l-button {
+    position: absolute;
+    top: -11px;
+    right: 5px;
+  }
 }
 
 .l-footer {
