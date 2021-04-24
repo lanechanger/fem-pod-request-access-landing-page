@@ -71,8 +71,13 @@ body {
   font-size: rem(12px);
   line-height: calc(14/12);
   font-weight: 700;
+  margin-top: rem(8px);
 
   visibility: hidden;
+
+  @include breakpoint-up(medium) {
+    margin-left: rem(32px);
+  }
 }
 
 .text-button {

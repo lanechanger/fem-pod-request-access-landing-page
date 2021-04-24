@@ -77,7 +77,14 @@ body {
   font-size: 0.75rem;
   line-height: calc(14/12);
   font-weight: 700;
+  margin-top: 0.5rem;
   visibility: hidden;
+}
+
+@media screen and (min-width: 640px) {
+  .email-error {
+    margin-left: 2rem;
+  }
 }
 
 .text-button {
@@ -202,14 +209,8 @@ footer > p > a {
 
 @media screen and (min-width: 640px) {
   .l-podcast {
-    margin-top: 3.125rem;
+    margin-top: 2.8125rem;
     justify-content: flex-start;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .l-podcast {
-    margin-top: 3.5rem;
   }
 }
 

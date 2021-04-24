@@ -71,12 +71,8 @@
     align-items: center;
 
     @include breakpoint-up(medium) {
-      margin-top: rem(50px);
+      margin-top: rem(45px);
       justify-content: flex-start;
-    }
-
-    @include breakpoint-up(large) {
-      margin-top: rem(56px);
     }
   }
 
