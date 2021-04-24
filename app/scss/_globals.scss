@@ -6,43 +6,43 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: 'Chivo', sans-serif;
-  height: 100%;
-  min-height: 100vh;
-  font-size: rem(15px);
-  line-height: calc(25/15);
   background-color: $darkestGray;
-  font-weight: 300;
-  text-align: center;
-  color: $lightestGray;
-  position: relative;
   background-repeat: no-repeat;
+  color: $lightestGray;
+  font-family: 'Chivo', sans-serif;
+  font-size: rem(15px);
+  font-weight: 300;
+  height: 100%;
+  line-height: calc(25/15);
+  min-height: 100vh;
+  position: relative;
+  text-align: center;
 
   &:after {
     @include breakpoint-down(small) {
-      content: ' ';
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1;
-      opacity: 0.1;
       background-image: url("/assets/mobile/image-host.jpg");
       background-repeat: no-repeat;
       background-size: contain;
+      content: ' ';
+      height: 100%;
+      left: 0;
+      opacity: 0.1;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: -1;
     }
   }
 
   @include breakpoint-up(medium) {
-    text-align: left;
     background-image: url("/assets/tablet/image-host.jpg"), url("/assets/desktop/bg-pattern-dots.svg");
     background-position: top right, bottom -0.05% left 5%;
+    text-align: left;
   }
 
   @include breakpoint-up(large) {
@@ -52,14 +52,14 @@ body {
 }
 
 .email {
+  background-color: $darkGray;
+  border: none;
   border-radius: rem(28px);
-  padding: rem(9px) 0 rem(9px) rem(32px);
+  color: white;
   font-size: rem(14px);
   font-weight: 700;
   line-height: 2;
-  background-color: $darkGray;
-  color: white;
-  border: none;
+  padding: rem(9px) 0 rem(9px) rem(32px);
 
   @include breakpoint-up(medium) {
     padding: rem(14px) 0 rem(14px) rem(32px);
@@ -69,35 +69,36 @@ body {
 .email-error {
   color: $red;
   font-size: rem(12px);
-  line-height: calc(14/12);
   font-weight: 700;
+  line-height: calc(14/12);
 
   visibility: hidden;
 }
 
 .text-button {
-  cursor: pointer;
-  border: none;
   background-color: $green;
-  color: $darkestGray;
+  border: none;
   border-radius: rem(28px);
+  color: $darkestGray;
+  cursor: pointer;
   padding: rem(9px) 0;
 
   @include breakpoint-up(medium) {
-    padding: rem(9px) rem(27px);
     max-width: rem(162px);
+    padding: rem(9px) rem(27px);
   }
 
   &:hover {
     background-color: $lightGreen;
+    -webkit-transition: background-color 300ms ease-in-out;
     transition: background-color 300ms ease-in-out;
   }
 }
 
 footer {
   font-size: rem(13px);
-  width: 100%;
   text-align: center;
+  width: 100%;
   z-index: -1;
 
   &>p>a {

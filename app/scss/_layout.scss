@@ -26,8 +26,8 @@
   }
 
   &description {
-    margin-top: rem(16px);
     display: inline-block;
+    margin-top: rem(16px);
 
     @include breakpoint-up(medium) {
       margin-top: rem(31px);
@@ -40,13 +40,19 @@
   }
 
   &logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     padding-top: rem(62px);
 
     @include breakpoint-up(medium) {
-      padding-top: rem(50px);
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
       justify-content: flex-start;
+      padding-top: rem(50px);
     }
 
     @include breakpoint-up(large) {
@@ -55,35 +61,57 @@
   }
 
   &bottom {
-    margin-top: rem(33px);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    margin-top: rem(33px);
 
     @include breakpoint-up(medium) {
-      margin-top: rem(40px);
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
       flex-direction: column-reverse;
+      margin-top: rem(40px);
     }
   }
 
   &podcast {
-    display: flex;
-    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
 
     @include breakpoint-up(medium) {
-      margin-top: rem(45px);
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
       justify-content: flex-start;
+      margin-top: rem(45px);
     }
   }
 
   &podcast-containers {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
   &conversion {
-    margin-top: rem(48px);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    margin-top: rem(48px);
     position: relative;
 
     @include breakpoint-up(medium) {
@@ -105,13 +133,13 @@
 
     @include breakpoint-up(medium) {
       position: absolute;
-      top: -11px;
       right: 5px;
+      top: -11px;
     }
   }
 
   &footer {
-    position: fixed;
     bottom: 1rem;
+    position: fixed;
   }
 }
