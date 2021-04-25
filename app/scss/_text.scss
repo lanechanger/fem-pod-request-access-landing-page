@@ -36,6 +36,7 @@
     white-space: nowrap;
 
     // added this width below last minute as the text was wrapping into a new line on FEM
+
     @include breakpoint-up(medium) {
       width: rem(162px);
     }
